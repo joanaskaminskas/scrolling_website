@@ -1,0 +1,155 @@
+/* Global Styles */
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+	/* NAVIGATION STYLES */
+	
+	.standardNav{
+		position: fixed !important;
+		width: 100%;
+		z-index: 9999;
+	}
+
+	.standardNav ul{ 
+		margin: 0;
+		padding: 6px;
+		list-style: none;
+		-webkit-border-radius: 15px;
+		-moz-border-radius: 15px;
+		background: #fff;
+		-webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, .3);
+		-moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, .3);
+		box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, .3);
+	}
+	
+	.standardNav li{
+		display: table-cell;
+	}
+	
+	.standardNav li a{
+		display: table-cell;	
+		font-weight: normal;
+		padding: 8px 10px;
+		text-decoration: none;
+		color: #666;
+		font-size: 12px;
+	}	
+	
+	.standardNav li a:hover{
+		color: #333;
+	}
+	
+	.standardNav li.active a{
+		font-weight: bold;
+		color: #000;
+	}
+	
+/* layout */
+.vert-text {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.vert-text h1 {
+  padding: 0;
+  margin: 0;
+  font-size: 4.5em;
+  font-weight: 700;
+}
+.vert-text h3 {
+color: black;
+}
+
+/* header */
+
+.header {
+  display: table;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background: url(../images/croatia-lg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* introduction */
+
+#introduction {
+  text-align: center;
+}
+
+.jumbotron {
+ margin-bottom: auto;
+}
+
+
+/* activities */
+
+.activities h3 {
+text-align: center;
+color: black;
+}
+.col-md-3 {
+ text-align: center;
+ }
+.activities {
+background-color: #69C2F6;
+}
+
+.round {
+	vertical-align: middle; 
+	text-align: center;
+	font-size: 80px;
+	line-height: 110px;
+	display: inline-block;
+	height: 120px;
+	width: 120px;
+	border-radius: 100%;
+	border: 1px solid black;
+}
+.activities p {
+margin-bottom: 30px;
+}
+
+/* picture */
+
+.picture {
+  color: white;
+  display: table;
+  height: 350px;
+  width: 100%;
+  position: relative;
+  background: url(../images/zakopane-lg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/* portfolio */
+.portfolio {
+padding: 50px 0;
+}
+
+.portfolio h2, h3{
+color: #69C2F6;
+text-align: center;
+}
+ 
+/* footer */
+footer {
+padding: 50px 0;
+}
+
+footer h2 {
+color: #69C2F6;
+}
+
+footer p {
+color: #69C2F6;
+}
